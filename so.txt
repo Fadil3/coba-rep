@@ -1,0 +1,21 @@
+monolithic
+
+kelebihan :
+- simple
+- cepat karena semua ada di dalam kernel komunikasi antara komponen dalam kernel sangat cepat karena diload sekaligus pada saat booting
+
+kelemahan :
+- ukuran kernel sangat besar
+- susah dimaintenance karena dalam 1 file (tidak modular)
+- untuk menambahkan suatu fungsi harus compile ulang seluruh kernel dan penambahan suatu fungsi dapat mempengaruhi komponen lain
+
+
+microkernel 
+
+kelebihan :
+- minimalis
+- untuk menambah fungsi baru cukup ditambahkan tidak perlu update kernel
+- crash di user mode tidak mempengaruhi kernel
+
+kekurangan:
+- lambat
